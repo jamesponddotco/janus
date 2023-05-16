@@ -1,5 +1,7 @@
 # Janus
 
+[![builds.sr.ht status](https://builds.sr.ht/~jamesponddotco/janus.svg)](https://builds.sr.ht/~jamesponddotco/janus?)
+
 `janus` is a simple and easy-to-use command-line utility for comparing
 files and finding differences between them. In ancient Roman religion
 and myth, **Janus** is the god of beginnings, transitions, and endings,

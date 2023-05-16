@@ -1,0 +1,22 @@
+---
+image: 'archlinux'
+packages:
+  - 'go'
+  - 'make'
+  - 'scdoc'
+sources:
+  - https://git.sr.ht/~jamesponddotco/janus
+tasks:
+  - setup: |
+      cd janus
+      make init
+  - lint: |
+      cd janus
+      export PATH="${HOME}/go/bin:${PATH}"
+      make lint
+  - test: |
+      cd janus
+      make test
+  - build: |
+      cd janus
+      make
